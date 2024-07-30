@@ -1,7 +1,0 @@
-usedNames.remove(this.name);
-String name;
-while (usedNames.contains(name = generateName())) {
-    continue;
-}
-usedNames.add(name);
-this.name = name;
